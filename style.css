@@ -175,20 +175,30 @@ body{
     /* width: 100%; */  /* not give width 100% */
     background-color: cadetblue;
     padding: 24px;
+    display: block;
   }
 
   .slide-show{
     /* display: flex; */
     position: relative;
+    background-color: navy;
+    /* height: 34px; */
+    /* opacity: 20%; */
   }
   .slide-show .image{
     background-color: red;
-    width: 100%;
+    min-width: 100px;
+    min-height: 100px;
+    
   }
   .slide-show .image img{
-    width: 20px;
+    padding: 5px 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .slide-show .heart{
     position: absolute;
-    
+    top: 12px;
+    right: 12px;
   }
