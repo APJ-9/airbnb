@@ -195,7 +195,7 @@ body{
   .main-elements .main-card .slide-show ::after{
     content: "";
     display: block;
-    padding-bottom: 100%;
+    padding-bottom: 95%;
   }
 
   .main-card .slide-show .image{
@@ -224,7 +224,7 @@ body{
   }
   .main-card .card-elements{
     /* background-color: salmon; */
-    padding-top: 20px;
+    padding-top: 16px;
   }
   .main-card .card-elements .name-and-rating{
     display: flex;
@@ -232,18 +232,56 @@ body{
     padding-bottom: 4px;
   }
   .main-card .card-elements .name-and-rating h3{
-    font-size: 16px;
+    font-size: 15px;
   }
   .main-card .card-elements .name-and-rating p{
-    font-size: 16px;
+    font-size: 15px;
   }
   .main-card .card-elements .other-details p{
     padding-bottom: 2px;
-    font-size: 16px;
+    font-size: 15px;
+    color: #707070;
   }
   .main-card .card-elements .amount{
     display: flex;
     align-items: baseline;
     /* background-color: aqua; */
-    padding: 12px 0;
+    padding: 8px 0;
+    font-size: 13px;
   }
+  .main-card .card-elements .amount span{
+    font-size: 16px;
+  }
+
+  .continue_exploring{
+    /* background-color: darkcyan; */
+    padding: 0px 20px;
+  }
+  .line{
+    background-color: #dfdfdf;
+    height: 1px;
+  }
+  .continue_exploring .show_more{
+    padding-top: 32px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center
+  }
+  .continue_exploring .show_more p{
+    font-size: 18px;
+    /* text-align: center; */
+    font-weight: bold;
+    padding: 20px 0;
+  }
+  .continue_exploring .show_more button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
