@@ -14,6 +14,7 @@ body{
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 12;
 }
 .header .search-bar-container{
     /* background-color: orange; */
@@ -173,32 +174,48 @@ body{
   .main-elements{   /* SECTION main-elements */
     margin-top: 150px;  /* Margin top is used to adjust the fixed header section */
     /* width: 100%; */  /* not give width 100% */
-    background-color: cadetblue;
-    padding: 24px;
+    /* background-color: cadetblue; */
+    padding: 20px;
+    /* height: auto; */
+    /* display: flex; */
+    /* background-color: red; */
+  }
+  .main-elements .main-card{
+    /* background-color: wheat; */
+    /* position: relative; */
+    min-width: 200px;
+  }
+  /* NEED TO FIND WHATS HAPPEND HERE REFER FOR FUTURE */
+  .main-elements .main-card .slide-show{
+    width: 100%;
+    position: relative;
+  }
+  .main-elements .main-card .slide-show ::after{
+    content: "";
     display: block;
+    padding-bottom: 100%;
   }
 
-  .slide-show{
-    /* display: flex; */
-    position: relative;
-    background-color: navy;
-    /* height: 34px; */
-    /* opacity: 20%; */
-  }
-  .slide-show .image{
-    background-color: red;
-    min-width: 100px;
-    min-height: 100px;
-    
-  }
-  .slide-show .image img{
-    padding: 5px 0;
+  .main-card .slide-show .image{
+    /* background-color: red; */
     width: 100%;
+    /* max-width: 250px; */
+    /* min-height: 250px; */
     height: 100%;
-    object-fit: cover;
+    display: flex;
+    /* border-radius: 20px; */
   }
-  .slide-show .heart{
+  .main-card .slide-show .image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .main-card .slide-show .heart{
+    /* background-color: whitesmoke; */
+    /* display: flex; */
     position: absolute;
     top: 12px;
     right: 12px;
   }
+  
