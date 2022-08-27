@@ -175,7 +175,7 @@ body{
     margin-top: 150px;  /* Margin top is used to adjust the fixed header section */
     /* width: 100%; */  /* not give width 100% */
     /* background-color: cadetblue; */
-    padding: 20px;
+    padding: 16px 24px;
     /* height: auto; */
     /* display: flex; */
     /* background-color: red; */
@@ -184,6 +184,8 @@ body{
     /* background-color: wheat; */
     /* position: relative; */
     min-width: 200px;
+    /* background-color: saddlebrown; */
+    margin-bottom: 16px;
   }
   /* NEED TO FIND WHATS HAPPEND HERE REFER FOR FUTURE */
   .main-elements .main-card .slide-show{
@@ -201,7 +203,7 @@ body{
     width: 100%;
     /* max-width: 250px; */
     /* min-height: 250px; */
-    height: 100%;
+    /* height: 40%; */
     display: flex;
     /* border-radius: 20px; */
   }
@@ -217,5 +219,31 @@ body{
     position: absolute;
     top: 12px;
     right: 12px;
+    font-size: 24px;
+    color: white;
   }
-  
+  .main-card .card-elements{
+    /* background-color: salmon; */
+    padding-top: 20px;
+  }
+  .main-card .card-elements .name-and-rating{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+  }
+  .main-card .card-elements .name-and-rating h3{
+    font-size: 16px;
+  }
+  .main-card .card-elements .name-and-rating p{
+    font-size: 16px;
+  }
+  .main-card .card-elements .other-details p{
+    padding-bottom: 2px;
+    font-size: 16px;
+  }
+  .main-card .card-elements .amount{
+    display: flex;
+    align-items: baseline;
+    /* background-color: aqua; */
+    padding: 12px 0;
+  }
