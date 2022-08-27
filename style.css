@@ -172,7 +172,8 @@ body {
   display: block;
   font-size: 12px;
   font-weight: bold;
-  width: max-content;
+  /* width: max-content; */
+  white-space: nowrap;
   padding: 0 7px;
   /* border-bottom: 2px solid black; */
 }
@@ -358,4 +359,41 @@ body {
   font-weight: 600;
   padding-bottom: 100px;
   display: block;
+}
+
+.footer{
+  background: #f8f8f8;
+  padding: 0 20px;
+}
+.footer_list_top .top_list{
+  padding: 20px 0;
+}
+.footer_list_top .top_list h3{
+  /* background-color: saddlebrown; */
+  font-size: 14px;
+  padding: 8px 0;
+}
+.footer_list_top .top_list .list p{
+  font-size: 14px;
+  padding: 8px 0;
+}
+.footer .lagn_and_social_media{
+  display: flex;
+}
+.footer .lagn_and_social_media p{
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 20px;
+  color: #2f2f2f;
+}
+
+.footer .copyright .copy-container{
+  /* background-color: yellow; */
+  padding: 20px 0;
+}
+.footer .copyright .copy-container p{
+  font-size: 14px;
+}
+.footer .copyright .copy-container span{
+  font-size: 14px;
 }
