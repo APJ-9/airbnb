@@ -397,3 +397,33 @@ body {
 .footer .copyright .copy-container span{
   font-size: 14px;
 }
+
+@media screen and (min-width:550px) {
+  .main-elements{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  
+}
+
+@media screen and (min-width:950px) {
+  .main-elements{
+    grid-template-columns: auto auto auto;
+  }
+  
+}
+
+@media screen and (min-width:1128px) {
+  .main-elements{
+    grid-template-columns: auto auto auto auto;
+  }
+  
+}
+
+@media screen and (min-width: 1606px) {
+  .main-elements{
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
+}
