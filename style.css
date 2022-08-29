@@ -18,6 +18,10 @@ body {
   z-index: 12;
 }
 
+.header_container_744_above {
+  display: none;
+}
+
 .header .search-bar-container {
   /* background-color: orange; */
   display: flex;
@@ -419,17 +423,24 @@ body {
 }
 
 @media screen and (min-width:744px) {
+  .header .search-bar-container {
+    display: none;
+  }
+
   .header_container_744_above {
     background-color: #1f1f1f;
     padding: 20px;
     /* edit padding for adjust the size */
+    /* the height of the elements are 44px */
     display: flex;
+    /* height: 80px; */
+    /* add the height 80px and remove the padding afterwards */
     justify-content: space-between;
   }
 
   .header_container_744_above .left {
     background-color: #707070;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
   }
 
@@ -442,11 +453,12 @@ body {
     display: flex;
     /* min-width 348px is to be set the width of the search bar is not changing */
   }
-
+/* HEADER SECTION RIGHT PART COMPLETED */
+/* look for colour changes */
   .header_container_744_above .right {
-    background-color: violet;
     display: flex;
-    /* padding: 20px; */
+    align-items: center;
+    height: 44px;
   }
 
   .header_container_744_above .right h3 {
@@ -454,13 +466,46 @@ body {
     font-size: 14px;
   }
 
-  .header_container_744_above .right i {
+  .header_container_744_above .right .fa-futbol-o {
     padding: 0 24px;
   }
 
   .header_container_744_above .right .login_div {
-    max-width: 40px;
-    padding-right: 30px;
+    width: 77px;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid darkgrey;
+    border-radius: 40px;
+  }
+
+
+  .avatar_red_dot {
+    /* background-color: saddlebrown; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+  }
+  .header_container_744_above .right .login_div .avatar_red_dot .fa-bars{
+    padding-left: 10px;
+  }
+  .header_container_744_above .right .login_div .avatar_red_dot .fa-user-circle {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
+  .header_container_744_above .right .login_div .red_dot {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
   }
 }
 
