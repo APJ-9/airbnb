@@ -442,16 +442,11 @@ body {
   }
 
   .header_container_744_above {
-    /* background-color: #1f1f1f; */
     padding: 20px 44px;
-    /* Padding 48 is the correct */
-    /* padding: 0 24px; */
-    /* edit padding for adjust the size */
-    /* the height of the elements are 44px */
     display: flex;
-    /* height: 80px; */
-    /* add the height 80px and remove the padding afterwards */
     justify-content: space-between;
+    /* background-color: darkblue; */
+    border-bottom: 1px solid #efefef;
   }
 
   .header_container_744_above .left {
@@ -517,9 +512,6 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-
-  /* HEADER SECTION RIGHT PART COMPLETED */
-  /* look for colour changes */
   .header_container_744_above .right {
     display: flex;
     align-items: center;
@@ -597,6 +589,8 @@ body {
     justify-items: left;
 
   }
+
+  
 
 }
 
