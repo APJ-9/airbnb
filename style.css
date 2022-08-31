@@ -178,7 +178,10 @@ body {
 
 .discover-slider .discover-card {
   /* background: cornsilk; */
-  display: block;
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 12px;
   font-weight: bold;
   /* width: max-content; */
@@ -585,7 +588,7 @@ body {
     width: 100%;
     padding: 20px 0;
     /* background-color: orange; */
-    margin-left:44px;
+    margin-left: 44px;
     margin-right: 20px;
   }
 
@@ -650,6 +653,7 @@ body {
     display: flex;
     align-items: center;
   }
+
   .menubar_slider_and_filter_744 .filter_744 {
     display: flex;
     border: 1px solid #2f2f2f;
@@ -658,12 +662,10 @@ body {
     margin-right: 20px;
     white-space: nowrap;
   }
-  .menubar_slider_and_filter_744 .filter_744 span{
+
+  .menubar_slider_and_filter_744 .filter_744 span {
     padding-left: 4px;
   }
-
-
-
 
   .continue_exploring .inspiration_future .things_to_do {
     display: grid;
@@ -694,6 +696,8 @@ body {
     grid-template-columns: auto auto auto;
   }
 
+  /* THE SEARCH BAR COMES TO THE CENTER SIDE */
+
 }
 
 @media screen and (min-width:1128px) {
@@ -719,6 +723,8 @@ body {
     /* background: #ff385c; */
   }
 
+  /* DISPLAY THE TEXT AIRBNB AND INCREASE THE MARGIN */
+  .header_container_744_above .left {}
 }
 
 @media screen and (min-width: 1606px) {
